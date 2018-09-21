@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8823b078-5ea6-4727-b47c-04c80b122a20" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/bridge/BigWheel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/bridge/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/bridge/CentralLocking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/bridge/GearLocking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/bridge/Motoren.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/bridge/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/bridge/TestBridgePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/composite/HtmlElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/composite/HtmlParentElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/composite/HtmlTag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/composite/TestCompositePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/SingletonEager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/SingletonLazy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/SingletonLazyDoubleCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/SingletonLazyMultithreaded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/test/DiskClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/test/DiskClassLoader1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/Singleton.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,51 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SingletonEager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/SingletonEager.java">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/joyner/patterns/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingletonLazy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/SingletonLazy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingletonLazyMultithreaded.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/SingletonLazyMultithreaded.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingletonLazyDoubleCheck.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/SingletonLazyDoubleCheck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/Singleton.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+            <state relative-caret-position="272">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -114,8 +62,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/SingletonLazy.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/SingletonLazyMultithreaded.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/SingletonLazyDoubleCheck.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/Singleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joyner/patterns/test/DiskClassLoader1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/Singleton.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/joyner/patterns/test/Test.java" />
       </list>
     </option>
   </component>
@@ -136,6 +86,22 @@
         <option name="createModuleGroups" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Design-Patterns" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Design-Patterns" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="1.8" />
@@ -199,6 +165,15 @@
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
               <item name="singleton" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Design-Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -223,6 +198,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Java\projects\DesignPatterns\src\main\java\com\joyner\patterns\test" />
       <recent name="D:\Java\projects\DesignPatterns\src\main\java\com\joyner\patterns\facade" />
     </key>
   </component>
@@ -238,14 +214,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="RunAdapterExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.joyner.patterns.adapter.RunAdapterExample" />
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.joyner.patterns.test.Test" />
       <module name="Design-Patterns" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.joyner.patterns.adapter.*" />
+          <option name="PATTERN" value="com.joyner.patterns.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -336,19 +312,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.RunAdapterExample" />
       <item itemvalue="Application.TestFacade" />
       <item itemvalue="Application.TestCompositePattern" />
       <item itemvalue="Application.TestBridgePattern" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestBridgePattern" />
         <item itemvalue="Application.TestCompositePattern" />
         <item itemvalue="Application.TestFacade" />
-        <item itemvalue="Application.RunAdapterExample" />
       </list>
     </recent_temporary>
   </component>
@@ -365,45 +341,44 @@
       <workItem from="1537351128660" duration="9432000" />
       <workItem from="1537493796504" duration="3247000" />
       <workItem from="1537515819081" duration="735000" />
-      <workItem from="1537522170230" duration="21000" />
+      <workItem from="1537522170230" duration="2032000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13435000" />
+    <option name="totallyTimeSpent" value="15446000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32978722" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.32983023" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25464836" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25464836" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39893618" />
+      <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,6 +386,19 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/joyner/patterns/test/Test.java</url>
+          <line>5</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/SingletonEager.java">
@@ -698,14 +686,27 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/SingletonLazyDoubleCheck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joyner/patterns/test/DiskClassLoader1.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joyner/patterns/test/DiskClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/joyner/patterns/singleton/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        <state relative-caret-position="379">
+          <caret line="54" column="5" lean-forward="true" selection-start-line="54" selection-start-column="5" selection-end-line="54" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/joyner/patterns/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
