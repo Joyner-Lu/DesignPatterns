@@ -1,0 +1,2 @@
+更多的单例写法与知识点参照如下文章：
+https://www.cnblogs.com/dongyu666/p/6971783.html
