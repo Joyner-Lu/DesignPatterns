@@ -29,8 +29,8 @@ public class CommentaryObject implements Subject,Commentary{
     @Override
     public void setDesc(String desc) {
         this.desc = desc;
-        notifyObservers();
-    }
+    notifyObservers();
+}
     @Override
     public String subjectDetails() {
         return subjectDetails;
